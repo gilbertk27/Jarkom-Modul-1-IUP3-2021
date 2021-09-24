@@ -70,6 +70,21 @@ The password to open the .zip from the previous file can be seen
 
 11. Filter so that wireshark only picks up packets coming from port 80!
 
- | ![]! [nomer11hasil](https://user-images.githubusercontent.com/74300479/134630648-9ce6a12f-ac7c-480d-90f1-d2f8f9ee270a.jpg) |
- |:--:| 
-Because
+[nomer11hasil](https://user-images.githubusercontent.com/74300479/134630648-9ce6a12f-ac7c-480d-90f1-d2f8f9ee270a.jpg)
+
+![nomer11](https://user-images.githubusercontent.com/74300479/134631025-a42db739-a002-465e-95e0-db3b44f3396f.jpg)
+| *no11* |
+
+Because in the question there is a keyword "from" so we use src port 80.
+Src here means source. After that, the filter results obtained from port 80 will appear.
+
+12. Filter so that wireshark only picks up packets containing port 21!
+13. Filter so that wireshark only shows packets going to port 443!
+
+![nomer13](https://user-images.githubusercontent.com/74300479/134631923-6badfd15-5f62-4d8b-9bff-a63b607a6c9d.jpg)
+| *no13* |
+![nomer13hasil](https://user-images.githubusercontent.com/74300479/134631942-2530ce52-e0d6-4101-817e-dee635e659ba.jpg)
+| *no13* |
+
+At number 13, it is not much different from the previous number 11. Because in the question there is a keyword in the form of "going to"
+so we use dst port 443. Etc here means destination. After that, the filter results obtained from the dst port 443 will appear.
