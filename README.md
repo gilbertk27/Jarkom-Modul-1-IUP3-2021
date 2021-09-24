@@ -28,21 +28,20 @@ Change data to RAW -> save as .pdf
 |:--:| 
 | *no7* |
 
-8. Look for the packets that show the retrieval of files from the FTP!
+8.Look for the packets that show the retrieval of files from the FTP!
 
 ##### Screenshot no 8:
 | ![](/Pictures/no8.png) |
 |:--:| 
 | *no8* |
 
-9. From the packets going to FTP, there are indications of storing some files. One of them is a file containing confidential data with the name 
-"secret.zip". Save and open the file!
+9.From the packets going to FTP, there are indications of storing some files. One of them is a file containing confidential data with the name "secret.zip". Save and open the file!
 
 Enter ‘ftp-data.command contains “secret.zip”’ to the wireshark
 Right click -> follow -> follow TCP
 Change data to RAW -> save as .zip
 
-10. Also there is "history.txt" which probably contains the history of the bash server! Use the contents of "history.txt" to find the password to open the secret file in "secret.zip"!
+10.Also there is "history.txt" which probably contains the history of the bash server! Use the contents of "history.txt" to find the password to open the secret file in "secret.zip"!
 
 Enter ‘ftp-data.command contains “history.txt”’ to the wireshark
 Right click -> follow -> follow TCP
@@ -70,7 +69,7 @@ The password to open the .zip from the previous file can be seen
 |:--:| 
 | *no 9 & 10* |
 
-11. Filter so that wireshark only picks up packets coming from port 80!
+11.Filter so that wireshark only picks up packets coming from port 80!
 
 Because in the question there is a keyword "from" so we use src port 80.
 Src here means source. After that, the filter results obtained from port 80 will appear.
@@ -83,8 +82,9 @@ Src here means source. After that, the filter results obtained from port 80 will
 |:--:| 
 | *no11* |
 
-12. Filter so that wireshark only picks up packets containing port 21!
-13. Filter so that wireshark only shows packets going to port 443!
+12.Filter so that wireshark only picks up packets containing port 21!
+
+13.Filter so that wireshark only shows packets going to port 443!
 
 At number 13, it is not much different from the previous number 11. Because in the question there is a keyword in the form of "going to"
 so we use dst port 443. Etc here means destination. After that, the filter results obtained from the dst port 443 will appear.
@@ -97,7 +97,7 @@ so we use dst port 443. Etc here means destination. After that, the filter resul
 |:--:| 
 | *no13* |
 
-14. Filter so that wireshark only picks up packets going to kemenag.go.id!
+14.Filter so that wireshark only picks up packets going to kemenag.go.id!
 
 Fill in the wireshark capture filter with “host kemenag.go.id”
 
@@ -109,7 +109,7 @@ Fill in the wireshark capture filter with “host kemenag.go.id”
 |:--:| 
 | *no14* |
 
-15. Filter so that wireshark only picks up packets coming from your local ip address!
+15.Filter so that wireshark only picks up packets coming from your local ip address!
 
 First we need to check the IPv4 Address (cmd -> ipconfig -> copy IPv4 address). Then fill in the wireshark capture filter with “src host 192.168.100.248”
  
