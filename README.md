@@ -43,14 +43,13 @@ Change data to RAW -> save as .zip
 
 10.Also there is "history.txt" which probably contains the history of the bash server! Use the contents of "history.txt" to find the password to open the secret file in "secret.zip"!
 
-Enter ‘ftp-data.command contains “history.txt”’ to the wireshark
-Right click -> follow -> follow TCP
-Change data to RAW -> save as .txt
-On the .txt file, there’s instruction to find bukanapapa.txt
-Enter ‘ftp-data.command contains “bukanapapa.txt”’ to the wireshark
-Right click -> follow -> follow TCP
-The password to open the .zip from the previous file can be seen
-
+Enter ‘ftp-data.command contains “history.txt”’ to the wireshark.
+Right click -> follow -> follow TCP.
+Change data to RAW -> save as .txt.
+On the .txt file, there’s instruction to find bukanapapa.txt.
+Enter ‘ftp-data.command contains “bukanapapa.txt”’ to the wireshark.
+Right click -> follow -> follow TCP.
+The password to open the .zip from the previous file can be seen.
 
 ##### Screenshot 9&10:
 | ![](/Pictures/no910a.jpg) |
