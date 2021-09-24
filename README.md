@@ -6,6 +6,7 @@ Drigo Alexander Sihombing (05111942000020)
 Gilbert KurniawanH. (05111942000025)
 
 6. Find username and password when logging into FTP Server!
+
 Enter ftp.request.command == RETR || ftp.request.command == USER to the wireshark
 
 ##### Screenshot no 6:
@@ -14,6 +15,7 @@ Enter ftp.request.command == RETR || ftp.request.command == USER to the wireshar
 | *No 6* |
 
 7.There are 500 zip files saved to FTP Server with names 0.zip, 1.zip, 2.zip, ..., 499.zip. Save and Open the pdf file. (Hint = the name of the pdf is "Real.pdf")
+
 Enter ftp-data contains Real.pdf” to the wireshark
 Right click -> follow -> follow TCP
 Change data to RAW -> save as .pdf
@@ -34,8 +36,8 @@ Change data to RAW -> save as .pdf
 | *no8* |
 
 9. From the packets going to FTP, there are indications of storing some files. One of them is a file containing confidential data with the name 
-
 "secret.zip". Save and open the file!
+
 Enter ‘ftp-data.command contains “secret.zip”’ to the wireshark
 Right click -> follow -> follow TCP
 Change data to RAW -> save as .zip
