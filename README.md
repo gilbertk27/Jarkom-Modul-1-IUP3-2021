@@ -78,6 +78,7 @@ Src here means source. After that, the filter results obtained from port 80 will
 |:--:| 
 | *no11* |
 ![nomer11hasilrevisi](https://user-images.githubusercontent.com/74300479/134635937-994395ba-6377-4eef-8c7a-21855e5eaa7d.jpg)
+|:--:| 
 | *no11* |
 
 12. Filter so that wireshark only picks up packets containing port 21!
@@ -88,8 +89,10 @@ so we use dst port 443. Etc here means destination. After that, the filter resul
 
 ##### Screenshot no 13:
 ![nomer13](https://user-images.githubusercontent.com/74300479/134631923-6badfd15-5f62-4d8b-9bff-a63b607a6c9d.jpg)
+|:--:| 
 | *no13* |
 ![nomer13hasil](https://user-images.githubusercontent.com/74300479/134631942-2530ce52-e0d6-4101-817e-dee635e659ba.jpg)
+|:--:| 
 | *no13* |
 
 14. Filter so that wireshark only picks up packets going to kemenag.go.id!
@@ -98,8 +101,10 @@ Fill in the wireshark capture filter with “host kemenag.go.id”
 
 ##### Screenshot no 14:
 ![nomer14](https://user-images.githubusercontent.com/74300479/134635299-ac273582-4c53-4054-89ff-8cf501cdd80d.jpg)
+|:--:| 
 | *no14* |
 ![nomer14hasil](https://user-images.githubusercontent.com/74300479/134635345-904a9eaf-a538-4161-95c8-1f2f8dcf6f54.jpg)
+|:--:| 
 | *no14* |
 
 15. Filter so that wireshark only picks up packets coming from your local ip address!
@@ -108,6 +113,8 @@ First we need to check the IPv4 Address (cmd -> ipconfig -> copy IPv4 address). 
  
 ##### Screenshot no 15:
 ![nomer15cmd](https://user-images.githubusercontent.com/74300479/134635790-48ad6bbc-834e-49c0-9a46-7a231abcbfa0.jpg)
+|:--:| 
 | *no15* |
 ![nomer15hasil](https://user-images.githubusercontent.com/74300479/134635844-557b869a-cd34-4908-8bf4-223c2c7fa71b.jpg)
+|:--:| 
 | *no15* |
