@@ -5,6 +5,59 @@ Rafi Akbar Rafsanjani (05111942000004)
 Drigo Alexander Sihombing (05111942000020)
 Gilbert KurniawanH. (05111942000025)
 
+
+1. What web server is used on "ichimarumaru.tech"!
+
+enter in the filter http.host == "ichimarumaru.tech" then follow tcp stream on HTTP/1.1, the server that ichimarumaru.tech use is nginx
+
+#### Screenshot no 1:
+
+| ![messageImage_1632139620070](https://user-images.githubusercontent.com/73428164/134690526-2de4c342-049d-4a2e-be91-006aa415d468.jpeg) |
+|:--:|
+| ![messageImage_1632139430955](https://user-images.githubusercontent.com/73428164/134690814-339ee02a-4fff-4ee9-acb5-1413c328b61c.jpeg) |
+|:--:| 
+| *No 1* |
+
+
+2. Find the packets from the web that use the basic authentication method!
+
+enter in the filter http.authbasic 
+
+| <img width="1361" alt="Screen Shot 2021-09-24 at 21 27 33" src="https://user-images.githubusercontent.com/73428164/134691302-7aac61fe-38ec-4817-ac67-75978d4549bd.png"> |
+|:--:| 
+| *No 2* |
+
+
+3. Follow the instructions at basic.ichimaru maru.tech! Username and password can be obtained from the .pcapng file! 
+
+to get the username and password enter in the filter http.host contains "basic.ichimarumaru.tech" and see the credentials in the package
+
+| ![messageImage_1632140735074](https://user-images.githubusercontent.com/73428164/134691942-dfb751ba-9d67-453c-9471-9f28bb2b5640.jpeg) |
+|:--:| 
+|![messageImage_1632140890807](https://user-images.githubusercontent.com/73428164/134691997-3df09af0-dd88-4e88-8684-438149a40fff.jpeg) |
+|:--:| 
+| *No 3* |
+
+
+4. Find the mysql packets that contain the select query command!
+
+simply use mysql.query matches select
+
+| ![messageImage_1632141359169](https://user-images.githubusercontent.com/73428164/134692334-129cd76a-a05e-4347-b4a8-2a4f6f098063.jpeg) |
+|:--:| 
+| *No 4* |
+
+5. Login to portal.ichimarumaru.tech then follow the instructions! The username and password can be obtained from the insert query in the users table from the .pcap file!  
+
+to get the username and password enter in the filter mysql.query matches insert and see the credentials in the package
+
+| ![messageImage_1632141623560](https://user-images.githubusercontent.com/73428164/134692879-ce4283c3-951e-4acf-b7f9-38081fc33795.jpeg) |
+|:--:| 
+| ![messageImage_1632141756089](https://user-images.githubusercontent.com/73428164/134692947-dc26f362-9b0c-4599-84eb-5c4d717ca3a1.jpeg) |
+|:--:| 
+| *No 5* |
+
+
 6.Find username and password when logging into FTP Server!
 
 Enter ftp.request.command == RETR || ftp.request.command == USER to the wireshark
