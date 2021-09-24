@@ -91,7 +91,7 @@ so we use dst port 443. Etc here means destination. After that, the filter resul
 ![nomer13](https://user-images.githubusercontent.com/74300479/134631923-6badfd15-5f62-4d8b-9bff-a63b607a6c9d.jpg)
 |:--:| 
 | *no13* |
-![nomer13hasil](https://user-images.githubusercontent.com/74300479/134631942-2530ce52-e0d6-4101-817e-dee635e659ba.jpg)
+![nomer13hasilrevisi](https://user-images.githubusercontent.com/74300479/134636380-f0737e4a-0e4d-468b-a02d-381c317bbc48.jpg)
 |:--:| 
 | *no13* |
 
