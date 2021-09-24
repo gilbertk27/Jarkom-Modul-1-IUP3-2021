@@ -69,5 +69,7 @@ The password to open the .zip from the previous file can be seen
 | *no 9 & 10* |
 
 11. Filter so that wireshark only picks up packets coming from port 80!
-| ![](/Pictures/nomer11.jpg) |
-|:--:| 
+
+![nomer11hasil](https://user-images.githubusercontent.com/74300479/134630648-9ce6a12f-ac7c-480d-90f1-d2f8f9ee270a.jpg)
+
+Because
