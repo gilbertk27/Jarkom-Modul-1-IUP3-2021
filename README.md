@@ -7,7 +7,7 @@ Gilbert KurniawanH. (05111942000025)
 
 6. Find username and password when logging into FTP Server!
 
-Enter ftp.request.command == RETR || ftp.request.command == USER to the wireshark
+ Enter ftp.request.command == RETR || ftp.request.command == USER to the wireshark
 
 ##### Screenshot no 6:
 | ![](/Pictures/no6.jpg) |
