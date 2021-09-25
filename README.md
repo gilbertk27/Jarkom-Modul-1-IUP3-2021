@@ -136,6 +136,11 @@ Src here means source. After that, the filter results obtained from port 80 will
 
 12.Filter so that wireshark only picks up packets containing port 21!
 
+Fill in the wireshark capture filter with “port 21”
+
+##### Screenshot no 12:
+![nomer12](https://user-images.githubusercontent.com/74300479/134760407-dc6821af-5220-493b-8d6c-b082b6b6b9de.jpg)
+
 13.Filter so that wireshark only shows packets going to port 443!
 
 At number 13, it is not much different from the previous number 11. Because in the question there is a keyword in the form of "going to"
