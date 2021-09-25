@@ -140,6 +140,8 @@ Fill in the wireshark capture filter with “port 21”
 
 ##### Screenshot no 12:
 ![nomer12](https://user-images.githubusercontent.com/74300479/134760407-dc6821af-5220-493b-8d6c-b082b6b6b9de.jpg)
+|:--:| 
+| *no12* |
 
 13.Filter so that wireshark only shows packets going to port 443!
 
